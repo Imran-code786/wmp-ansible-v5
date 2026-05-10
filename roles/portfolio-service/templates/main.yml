@@ -6,7 +6,7 @@
   Type=simple
   User=appuser
   WorkingDirectory=/app
-  ExecStart=/usr/bin/java -jar portfolio-service.jar
+  ExecStart=/usr/bin/java -jar /app/portfolio-service.jar
   Restart=on-failure
   RestartSec=10
   
