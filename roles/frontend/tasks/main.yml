@@ -32,7 +32,7 @@
 
 
 - name: Start ndinx service
-  ansible.builtin.ystemd_service:
+  ansible.builtin.systemd_service:
     name: nginx
     enabled: true
     state: started
