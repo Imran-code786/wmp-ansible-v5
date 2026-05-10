@@ -6,7 +6,7 @@
 - name: Include pre-reqs
   ansible.builtin.include_role:
     name: common
-    tasks_from: pre-reqs
+    tasks_from: pre-reqs.yml
 
 
 - name: Build application
