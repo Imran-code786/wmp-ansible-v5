@@ -9,7 +9,7 @@
     state: present
 
 - name: Update nginx configure file
-  notify: Restart nginx
+  notify: Restart Ngnix
   ansible.builtin.template:
     src: nginx.conf
     dest: /etc/nginx/nginx.conf
